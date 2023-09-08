@@ -1,0 +1,53 @@
+.chapter-container{
+    width: 40%;
+    margin: auto;
+}
+
+.img-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.chapter-container a{
+    background-color: white;
+    color: black;
+    /* color: #7159b3; */
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.chapter-container img{
+    width: 100%;
+}
+
+.chapter-detail{
+    text-align: center ;
+    color: white;
+    /* font-family: 'Comic Neue', cursive; */
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.chapter-detail h1{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.text-container{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+.text-container select{
+    width: 50px;
+}
+@media only screen and (max-width: 768px){
+    .chapter-container{
+        width: 75%;
+    }
+}
+@media only screen and (max-width: 425px){
+    .chapter-container{
+        width: 100%;
+    }
+}

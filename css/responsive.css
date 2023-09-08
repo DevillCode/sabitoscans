@@ -1,0 +1,238 @@
+/* LAPTOP */
+@media only screen and (max-width: 1024px){
+    .main-container{
+        width: 95%;
+    }
+    .theme{
+        display: none;
+    }
+    .popular-detail{
+        height: auto;
+    }
+    .box{
+        /* background-color: red; */
+        margin-bottom: 10px;
+    }
+    .popular-detail img{
+        height: 175px;
+    }
+    .box-text{
+        font-size: 15px;
+    }
+    .novel-text{
+        font-size: 15px;
+    }
+    .novel-name{
+        font-size: 12px;
+    }
+    .latest-updates img{
+        height: 175px;
+    }
+    .join-us{
+        height: 55px;
+    }
+    .join-us p{
+        display: none;
+    }
+    .join-us .join-us-link{
+        font-family: 'Fira Sans', sans-serif;
+        font-size: 15px;
+        padding: 10px;
+        margin-left: 0;
+    }
+    .join-us hr{
+        display: none;
+    }
+}
+/* LAPTOP */
+
+/* TABLET */
+@media only screen and (max-width: 910px){
+    .first-box{
+        margin-top: 10px;
+    }
+    .second-box{
+        margin-top: 10px;
+    }
+    .second-section{
+        margin-top: 10px;
+    }
+    .popular-detail .media-laptop{
+        display: block;
+    }
+    .latest-updates .media-laptop{
+        display: block;
+    }
+    .main-container{
+        width: 95%;
+    }
+    .fa-bars{
+        display: block;
+    }
+    .main-header{
+        display: none;
+    }
+    .ul-edit{
+        display: none;
+    }    
+    .text-edit{
+        margin: 0;
+    }
+    .popular-detail{
+        /* background-color: blue; */
+        height: 550px;
+    }
+    .popular-detail img{
+        height: 225px;
+    }
+    .latest-updates img{
+        height: 225px;
+    }
+    .box{
+        /* background-color: red; */
+        margin-bottom: 10px;
+    }
+    .novel-text{
+        margin-left: 10px;
+    }
+    .join-us{
+        height: 173px;
+        /* background-color: blue; */
+    }
+    .join-us p{
+        display: block;
+    }
+    .join-us-link{
+        display: flex;
+        flex-direction: column;
+        font-family: 'Fira Sans', sans-serif;
+        font-size: 15px;
+        margin: 0;
+    }
+    .join-us hr{
+        display: block;
+    }
+    .series-box{
+        margin-top: 10px;
+        width: 32%;
+    }
+    .series-tablet{
+        display: none;
+    }
+    footer{
+        margin-top: 10px;
+        /* background-color: #7159b3; */
+    }
+    /* BOX FIRST */
+    .second-box-tablet{
+        display: none;
+    }
+    .box-first{
+        width: 100%;
+    }
+    /* BOX FIRST */
+}
+/* TABLET */
+
+/* MOBILE */
+@media only screen and (max-width: 733px) {
+    .first-box{
+        width: 100%;
+    }
+    .second-box{
+        display: none;
+    }
+    .popular-detail{
+        /* background-color: blue; */
+        height: auto;
+    }
+    .popular-detail img{
+        height: 175px;
+    }
+    .latest-updates img{
+        height: 175px;
+    }
+    .series-box{
+        width: 49%;
+    }
+    .series-tablet{
+        display: block;
+    }
+    
+}
+@media only screen and (max-width: 425px) {
+    .main-container{
+        width: 95%;
+    }
+    .main-header{
+        display: none;
+    }
+    .ul-edit{
+        display: none;
+    }
+    .link{
+        display: none;
+    }
+    .search-box{
+        width: 150px;
+    }
+    .first-box{
+        width: 100%;
+    }
+    .second-box{
+        display: none;
+    }
+    /* .popular-detail{
+        height: 450px;
+    } */
+    .popular-detail img{
+        height: 225px;
+    }
+    .latest-updates img{
+        height: 225px;
+    }
+    .box{
+        /* background-color: green; */
+        margin-bottom: 10px;   
+    }
+    /* SERIES */
+    .mobile-series{
+        width: 100%;
+    }
+    .series-box{
+        width: 100%;
+    }
+    /* SERIES */
+    
+    /* SERIES DETAIL */
+    .detail-box{
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    .detail-box .detail-img{
+        width: 100%;
+        text-align: center;
+    }
+    .detail-box img{
+        margin: 10px;
+    }
+    .detail-box .detail-text{
+        margin: 10px;
+    }
+    .detail-name-edit{
+        text-align: center;
+    }
+    /* SERIES DETAIL */
+}
+@media only screen and (max-width: 350px) {
+    /* .popular-detail{
+        height: 732px;
+    } */
+    .popular-detail img{
+        height: 200px;
+    }
+    .latest-updates img{
+        height: 200px;
+    }
+}
+/* MOBILE */
